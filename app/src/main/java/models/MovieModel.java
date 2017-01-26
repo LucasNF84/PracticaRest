@@ -4,7 +4,7 @@ package models;
 import java.util.List;
 
 public class MovieModel {
-
+/*clase modelo*/
     private String movie;
     private int year;
     private float rating;
