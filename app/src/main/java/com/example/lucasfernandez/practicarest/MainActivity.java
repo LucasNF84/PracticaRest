@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     ListView lvMovies;
     private ProgressDialog dialog;
 
-
+/*PRACTICA REST*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
