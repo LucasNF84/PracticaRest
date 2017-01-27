@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
 
     public class  JSONTask  extends AsyncTask<String,String,List<MovieModel>> {
 
-
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
@@ -208,7 +207,6 @@ public class MainActivity extends AppCompatActivity {
                holder.rbMovie = (RatingBar)convertView.findViewById(R.id.rbMovie);
                holder.tvCast = (TextView)convertView.findViewById(R.id.tvCast);
                holder.tvStory = (TextView)convertView.findViewById(R.id.tvStory);
-
                convertView.setTag(holder);
            }else {
                holder = (ViewHolder)convertView.getTag();
@@ -269,7 +267,6 @@ public class MainActivity extends AppCompatActivity {
             private TextView  tvCast;
             private TextView  tvStory;
         }
-
     }
 
 
